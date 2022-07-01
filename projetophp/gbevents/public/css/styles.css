@@ -164,3 +164,80 @@ footer p {
     text-align: center;
     padding: 10px;
 }
+
+/* Event page */
+#image-container,
+#info-container {
+    margin-top: 50px;
+}
+
+#image-container img {
+    border-radius: 10px;
+}
+
+#info-container h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+#info-container p {
+    margin: 0;
+    font-size: 20px;
+    display: block;
+}
+
+#info-container h3,
+#description-container h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+#info-container #event-submit {
+    margin: 20px 0;
+}
+
+#items-list {
+    list-style: none;
+    padding-left: 0;
+    font-size: 20px;
+}
+
+#item-list li {
+    display: block;
+
+}
+
+#event-create-container input, #event-create-container select, #event-create-container textarea {
+    font-size: 20px;
+    margin: 15px;
+}
+
+#info-container {
+    margin-top: 50px;
+    padding-left: 34px;
+}
+
+/* Dashboard */
+.dashboard-title-container {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.dashboard-events-container th {
+    width: 25%;
+    font-size: 20px;
+}
+
+.dashboard-events-container form {
+    display: inline-block;
+}
+
+/* Edit page */
+
+.img-preview {
+    width: 350px;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 10px;
+}
